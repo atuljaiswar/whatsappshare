@@ -1,0 +1,23 @@
+/* whatsapp shere button */
+.whatsapp {
+	display: table;
+	font-family: sans-serif;
+	margin: inherit; 
+	text-decoration: none;
+	margin-top: 20px;
+	color: #fff; 
+  font-size: 0.8em; 
+	padding: 1em 2em 1em 3.5em; 
+	border-radius: 2em; 
+	font-weight: bold; 
+	background: #25d366
+	url('https://cdn-icons-png.flaticon.com/512/124/124034.png') 
+  no-repeat 1.5em center; 
+	background-size: 1.9em; 
+    margin-left: 40%;    	
+}
+
+.whatsapp:hover {
+	transform: scale(1.1);
+}
+
