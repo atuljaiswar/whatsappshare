@@ -6,14 +6,14 @@ https://wa.me/?text=[post-title] [post-url]
 
 */
 
-const whatsappshare = document.querySelector('.whatsapp-share');
+const whatsapp = document.querySelector('.whatsapp');
 
 function anything() {
   
   let postUrl = encodeURI(document.location.href);
   let postTitle = encodeURI('hello anil, i am good doing: ');
 
-  whatsappshare.setAttribute(
+  whatsapp.setAttribute(
     'href',
     `https://wa.me/send?text=${postTitle} ${postUrl}`
   );
