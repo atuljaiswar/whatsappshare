@@ -5,24 +5,20 @@ whatsapp link
 https://wa.me/?text=[post-title] [post-url]
 
 */
+const whatsappshare = document.querySelector('.whatsapp-share');
 
-const whatsapp = document.querySelector(".whatsapp");
+function anything() {
+  
+  let postUrl = encodeURI(document.location.href);
+  let postTitle = encodeURI('hello anil, i am good doing: ');
 
-
-function init() { 
-
-    
-    let postUrl = encodeURI(document.location.href);
-    let postTitle = encodeURI("hello anil: ");
-    
-
-    whatsapp.setAttribute(
-
-      "href", 
-      'https://wa.me/?text=${postTitle} ${postUrl}'
-      
-    );
-
+  whatsappshare.setAttribute(
+    'href',
+    `https://wa.me/send?text=${postTitle} ${postUrl}`
+  );
 }
 
-init();
+anything();
+
+/* new share button */
+
