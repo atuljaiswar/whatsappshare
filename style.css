@@ -21,3 +21,26 @@
 	transform: scale(1.1);
 }
 
+/* new share button */
+button {
+
+    border: #25d366;
+    background-color: #25d366;
+    color: #fff; 
+    background: #25d366
+    url('https://cdn-icons-png.flaticon.com/512/124/124034.png') 
+  no-repeat 1.5em center; 
+    background-size: 1.9em; 
+    padding: 1em 2em 1em 3.5em; 
+    border-radius: 2em;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 20px;
+    box-shadow: 20px;
+}
+
+button:hover {
+         transform: scale(1.2);
+}
+
+
