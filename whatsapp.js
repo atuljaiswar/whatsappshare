@@ -5,7 +5,6 @@ whatsapp link
 https://wa.me/?text=[post-title] [post-url]
 
 */
-
 const whatsapp = document.querySelector('.whatsapp');
 
 function anything() {
@@ -20,6 +19,7 @@ function anything() {
 }
 
 anything();
+
 
 /* new share button */
 
